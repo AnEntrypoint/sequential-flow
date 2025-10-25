@@ -1,0 +1,70 @@
+{
+  "name": "sequential-flow",
+  "version": "1.0.0",
+  "description": "JavaScript execution library with automatic pause/resume on fetch calls and custom storage. Built for edge functions, serverless environments, and cross-runtime compatibility. Lightweight alternative to FlowState.",
+  "main": "lib/edge-functions.cjs",
+  "type": "commonjs",
+  "exports": {
+    ".": "./lib/edge-functions.cjs",
+    "./storage": "./lib/storage.cjs"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "javascript",
+    "execution",
+    "fetch",
+    "pause",
+    "resume",
+    "state-management",
+    "async",
+    "flow-control",
+    "storage",
+    "redis",
+    "postgresql",
+    "mysql",
+    "sqlite",
+    "firestore",
+    "edge-functions",
+    "serverless",
+    "deno",
+    "node",
+    "bun",
+    "cross-runtime",
+    "zero-dependencies"
+  ],
+  "author": "Claude Code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/sequential-flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnEntrypoint/sequential-flow/issues"
+  },
+  "homepage": "https://github.com/AnEntrypoint/sequential-flow#readme",
+  "dependencies": {
+    "sequential-fetch": "^1.0.0"
+  },
+  "peerDependencies": {
+    "redis": "^4.0.0",
+    "firebase-admin": "^11.0.0"
+  },
+  "peerDependenciesMeta": {
+    "redis": {
+      "optional": true
+    },
+    "firebase-admin": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "deno": ">=1.40.0"
+  },
+  "files": [
+    "lib/",
+    "README.md"
+  ]
+}
