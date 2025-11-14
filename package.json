@@ -46,7 +46,7 @@
   "homepage": "https://github.com/AnEntrypoint/sequential-flow#readme",
   "dependencies": {
     "sequential-fetch": "^1.0.0",
-    "tasker-utils": "^1.0.0"
+    "sequential-utils": "^1.0.0"
   },
   "peerDependencies": {
     "redis": "^4.0.0",
