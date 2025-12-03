@@ -7,3 +7,4 @@ node_modules/
 .env.local
 .env.*.local
 package-lock.json
+README.md

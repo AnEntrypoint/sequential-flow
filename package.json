@@ -1,5 +1,5 @@
 {
-  "name": "sequential-flow",
+  "name": "@sequential/sequential-flow",
   "version": "1.0.0",
   "description": "JavaScript execution library with automatic pause/resume on fetch calls and custom storage. Built for edge functions, serverless environments, and cross-runtime compatibility. Lightweight alternative to FlowState.",
   "main": "lib/edge-functions.cjs",
@@ -44,10 +44,7 @@
     "url": "https://github.com/AnEntrypoint/sequential-flow/issues"
   },
   "homepage": "https://github.com/AnEntrypoint/sequential-flow#readme",
-  "dependencies": {
-    "sequential-fetch": "^1.0.0",
-    "sequential-utils": "^1.0.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "redis": "^4.0.0",
     "firebase-admin": "^11.0.0"
